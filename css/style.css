@@ -17,24 +17,11 @@ h1 {
 	-webkit-text-stroke: 0.5px gray;
 }
 
-/*td {
+img {
 	border-style: solid;
-	border-color: dimgray;
-	border-width: 3px;
-}*/
-
-img
-{
-	width: 100px;
-	height: 100px;
-	background: red;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	border-color: yellowgreen;
+	border-width: 1.75px;
 }
-
-/* Cleaner, but slightly less support: use "50%" as value */
-} 
 
 .img-hover:hover {
 	width: 100px;
