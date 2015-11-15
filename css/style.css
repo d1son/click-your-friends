@@ -3,14 +3,41 @@ body {
 }
 
 table {
-	background: linear-gradient(150deg, lightblue, white);
+	border-collapse: separate;
+    border-spacing: 50px 35px;
 }
 
 h1 {
 	font-family: 'Text Me One', sans-serif;
-	font-size: 24px;
-	font-weight: 900;
-	letter-spacing: 2.5px;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 2px;
 	text-transform: lowercase;
-	color: pink;
+	color: yellowgreen;
+	-webkit-text-stroke: 0.5px gray;
+}
+
+/*td {
+	border-style: solid;
+	border-color: dimgray;
+	border-width: 3px;
+}*/
+
+img
+{
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+/* Cleaner, but slightly less support: use "50%" as value */
+} 
+
+.img-hover:hover {
+	width: 100px;
+	height: 100px;
+	background: red;
 }
