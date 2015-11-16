@@ -17,7 +17,15 @@ h1 {
 	-webkit-text-stroke: 0.5px gray;
 }
 
-img {
+.smaller-font {
+	font-family: 'Text Me One', sans-serif;
+	color: white;
+	margin: 1px;
+	padding: 2px;
+	font-size: 16px;
+}
+
+.img-circle {
 	border-style: solid;
 	border-color: yellowgreen;
 	border-width: 1.75px;
@@ -31,11 +39,17 @@ img:hover {
 	cursor: pointer;
 }
 
-.clicked-img {
+[data-state="clicked"] {
 	width: 100px;
 	height: 100px;
 	border-style: solid;
-	border-width: 3px;
+	border-width: 4px;
+	border-color: yellow;
+}
+
+.btn {
+	font-family: 'Text Me One', sans-serif;
+	font-size: 16px;
 }
 
 

@@ -7,119 +7,103 @@
 	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
-<script type="text/javascript" src="js/events.js"></script>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2">
-				<h1>click your friends!</h1>
-				<button type="button" id="btn-start" class="btn btn-primary">start!</button>
+				<h1>click friends!</h1>
+				<button class="btn btn-primary" id="btn-start" id="time" data-state="start">play!</button>
+        		<p class ="smaller-font">click as many as you can in 20 seconds!</p>
 			</div>
-		<!-- </div> -->
-		<!-- <div class="row"> -->
 			<div class="col-md-10">
 				<table>
 					<tr>
 						<td>
-							<img src="images/schreck.jpg" class="img-circle clicked-img">
+							<img src="images/schreck.jpg" class="img-circle" data-state="unclicked">
 						</td>
 						<td>
-							<img src="images/bakan.jpg" class="img-circle clicked-img">
+							<img src="images/bakan.jpg" class="img-circle" data-state="unclicked">
 						</td>
 						<td>
-							<img src="images/gen.jpg" class="img-circle clicked-img">
+							<img src="images/gen.jpg" class="img-circle" data-state="unclicked">
 						</td>
 						<td>
-							<img src="images/amit.jpg" class="img-circle clicked-img">
+							<img src="images/amit.jpg" class="img-circle" data-state="unclicked">
 						</td>
 						<td>
-							<img src="images/kazu.jpg" class="img-circle clicked-img">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="images/ninja.jpg" class="img-circle clicked-img">
-
-						</td>
-						<td>
-							<img src="images/tina.jpg" class="img-circle clicked-img">
-
-						</td>
-						<td>
-							<img src="images/alice.jpg" class="img-circle clicked-img">
-
-						</td>
-						<td>
-							<img src="images/craig.jpg" class="img-circle clicked-img">
-
-						</td>
-						<td>
-							<img src="images/tanya.jpg" class="img-circle clicked-img">
-
+							<img src="images/kazu.jpg" class="img-circle" data-state="unclicked">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<img src="images/btedz.jpg" class="img-circle clicked-img">
+							<img src="images/ninja.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/cody.jpg" class="img-circle clicked-img">
+							<img src="images/tina.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/laura.jpg" class="img-circle clicked-img">
+							<img src="images/alice.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/jorge.jpg" class="img-circle clicked-img">
+							<img src="images/craig.jpg" class="img-circle" data-state="unclicked">
 
-						</td>
+						</td>"
 						<td>
-							<img src="images/claudia.jpg" class="img-circle clicked-img">
+							<img src="images/tanya.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<img src="images/sara.jpg" class="img-circle clicked-img">
+							<img src="images/btedz.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/indy.jpg" class="img-circle clicked-img">
+							<img src="images/cody.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/gart.jpg" class="img-circle clicked-img">
+							<img src="images/laura.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/frid.jpg" class="img-circle clicked-img">
+							<img src="images/jorge.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 						<td>
-							<img src="images/nick.jpg" class="img-circle clicked-img">
+							<img src="images/claudia.jpg" class="img-circle" data-state="unclicked">
 
 						</td>
 					</tr>
+					<tr>
+						<td>
+							<img src="images/sara.jpg" class="img-circle" data-state="unclicked">
+						</td>
+						<td>
+							<img src="images/indy.jpg" class="img-circle" data-state="unclicked">
 
+						</td>
+						<td>
+							<img src="images/gart.jpg" class="img-circle" data-state="unclicked">
 
+						</td>
+						<td>
+							<img src="images/frid.jpg" class="img-circle" data-state="unclicked">
 
+						</td>
+						<td>
+							<img src="images/nick.jpg" class="img-circle" data-state="unclicked">
+
+						</td>
+					</tr>
 				</table>
-
-
-
-
 			</div>
-
-
-
-
-
 		</div>
 	</div>
-
+<script type="text/javascript" src="js/timing.js"></script>
 </body>
 </html>
