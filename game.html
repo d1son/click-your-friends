@@ -3,107 +3,102 @@
 <head>
 	<meta charset="utf-8">
 	<title>click your friends!</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2">
 				<h1>click friends!</h1>
-				<button class="btn btn-primary" id="btn-start" id="time" data-state="start">play!</button>
+				<button class="btn btn-primary" id="btn-start" data-state="start">play!</button>
         		<p class ="smaller-font">click as many as you can in 20 seconds!</p>
 			</div>
 			<div class="col-md-10">
 				<table>
 					<tr>
 						<td>
-							<img src="images/schreck.jpg" class="img-circle" data-state="unclicked">
+							<img src="images/schreck.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/bakan.jpg" class="img-circle" data-state="unclicked">
+							<img src="images/bakan.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/gen.jpg" class="img-circle" data-state="unclicked">
+							<img src="images/gen.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/amit.jpg" class="img-circle" data-state="unclicked">
+							<img src="images/amit.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/kazu.jpg" class="img-circle" data-state="unclicked">
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="images/ninja.jpg" class="img-circle" data-state="unclicked">
-
-						</td>
-						<td>
-							<img src="images/tina.jpg" class="img-circle" data-state="unclicked">
-
-						</td>
-						<td>
-							<img src="images/alice.jpg" class="img-circle" data-state="unclicked">
-
-						</td>
-						<td>
-							<img src="images/craig.jpg" class="img-circle" data-state="unclicked">
-
-						</td>"
-						<td>
-							<img src="images/tanya.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/kazu.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<img src="images/btedz.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/ninja.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/cody.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/tina.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/laura.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/alice.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/jorge.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/craig.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/claudia.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/tanya.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<img src="images/sara.jpg" class="img-circle" data-state="unclicked">
+							<img src="images/btedz.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/indy.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/cody.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/gart.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/laura.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/frid.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/jorge.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 						<td>
-							<img src="images/nick.jpg" class="img-circle" data-state="unclicked">
-
+							<img src="images/claudia.jpg" class="img-circle" data-state="unclicked" alt="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="images/sara.jpg" class="img-circle" data-state="unclicked" alt="">
+						</td>
+						<td>
+							<img src="images/indy.jpg" class="img-circle" data-state="unclicked" alt="">
+						</td>
+						<td>
+							<img src="images/gart.jpg" class="img-circle" data-state="unclicked" alt="">
+						</td>
+						<td>
+							<img src="images/frid.jpg" class="img-circle" data-state="unclicked" alt="">
+						</td>
+						<td>
+							<img src="images/nick.jpg" class="img-circle" data-state="unclicked" alt="">
 						</td>
 					</tr>
 				</table>
 			</div>
 		</div>
+		<!-- Modal start -->
+		<div class="modal fade" id="gameModal" role="dialogue">
+			<div class="modal-dialogue">
+				
+			</div>
+		</div>
 	</div>
+
 <script type="text/javascript" src="js/timing.js"></script>
 </body>
 </html>
